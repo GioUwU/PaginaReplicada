@@ -1,0 +1,266 @@
+/* div alado de el otro div */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-top: 30px;
+  padding: 0px;
+}
+
+/* toda la informacion de usuarios a la izquierda y horizontales */
+.titleprin {
+    background-color: aliceblue;
+    border-radius: 1px;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 9px;
+ }
+
+ /*divs en horizontal */
+ .containeruserglobal {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+ }
+
+.containeruser {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+ }
+
+ .titlecontainer {
+    font-size: 22px;
+    
+ }
+
+.titlespanv {
+    
+    font-size: 14px;
+    color: #01ff4d;
+    margin-left: -5px;
+    margin-right: 10px;
+    font-weight: 400;
+ }
+
+.titlespanr {
+    font-size: 14px;
+    color: #ff0000;
+    margin-left: -5px;
+        margin-right: 10px;
+        font-weight: 400;
+ }
+
+.titlespana {
+    font-size: 14px;
+    color: #f0f327;
+    margin-left: -5px;
+    margin-right: 10px;
+    font-weight: 400;
+ }
+
+.titlep {
+    font-size: 14px;
+    color: #616161;
+    margin-top: -20px;
+    font-weight: 300;
+ }
+
+
+.container2 {
+  width: 64%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+.chart1 {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1px;
+    padding-bottom: 20px;
+}
+
+
+
+.container3 {
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 33.4%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.titleprin2 {
+    background-color: aliceblue;
+    border-radius: 1px;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 9px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+ }
+
+.containerselect {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    margin: 0px;
+    padding: 0px;
+ }
+
+ .containerselect p {
+    font-size: 15px;
+    color: #616161;
+    margin-left: 20px;
+    font-weight: 500;
+    text-decoration-line: underline;
+    cursor: pointer;
+ }
+
+ .containerusertop {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+ }
+
+ .containerusertop {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+ }
+
+ .chart2 {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1px;
+    padding-bottom: 20px;
+     
+ }
+
+ .clientmount1 {
+    display: flex;
+    flex-direction: space-between;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    color: #a8a8a8;
+ }
+
+ .clientmount2 {
+    display: flex;
+    flex-direction: space-between;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 4px;
+ }
+
+ .titlep2 {
+    font-size: 14px;
+    color: #616161;
+    margin-top: -20px;
+    font-weight: 600;
+ }
+
+ .titlep3 {
+    font-size: 14px;
+    color: #46af00;
+    margin-top: -20px;
+    font-weight: 400;
+ }
+
+ .clientbuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+ }
+
+ .button1 {
+    background-color: white;
+    border-radius: 2px;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    width: 100px;
+    height: 30px;
+    padding-bottom: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    font-weight: 400;
+    border: 1px solid #a8a8a8;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+ }
+
+ .button1:hover {
+    background-color: #00b7ff;
+ }
